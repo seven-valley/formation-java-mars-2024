@@ -1,0 +1,22 @@
+package controller;
+
+import java.util.Scanner;
+
+public class MainController {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str ="";
+		int age;	
+		System.out.println("saisir age :");
+		age = sc.nextInt();
+		System.out.println("saisir votre nom :");
+		str = sc.next();
+		System.out.println("saisir age :");
+		age = sc.nextInt();
+		System.out.println("votre age :"+age);
+		System.out.println("votre nom :"+str);
+		
+	}
+
+}
