@@ -31,6 +31,7 @@ public class TableauController {
 		for (char lettre : tabChar2) {
 			System.out.println(lettre);
 		}
+		 System.out.println(String.valueOf(tabChar2));
 		
 		
 		
