@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>100</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Entreprise
+--
++Entreprise()
+--
+ajouterEquipe(e:Equipe)
+ajouterEmploye(p:Personne)
+--
++AfficherEntreprise():string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>110</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Equipe
+--
++Equipe()
+--
+ajouter(p:Personne)
+--
++AfficherEquipe():string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>180</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>employes
+lt=&lt;-
+m1=0..n
+</panel_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>440</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Personne
+--
+- prenom:string
+- nom:string
+--
+Personne(prenom:string,nom:string)
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>290</y>
+      <w>90</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>personnes
+lt=&lt;-
+m1=0..n
+</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>230</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>equipes
+lt=&lt;-
+m1=0..n
+</panel_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>290</y>
+      <w>50</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>chef
+lt=&lt;-
+m1=1
+</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
