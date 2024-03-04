@@ -1,8 +1,15 @@
-package controller;
-
+package tp8_shaker;
 import java.util.Random;
 
-public class MelangeurController {
+/**
+ * 
+ */
+
+public class Melangeur {
+
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		String chaine = "Notre cerveau est formidable car il est capable "
 				+ "de lire un mot même si ses lettres sont mélangées";
@@ -48,4 +55,5 @@ public class MelangeurController {
 		}
 		return String.valueOf(tabCharMelange); 
 	}
+
 }
