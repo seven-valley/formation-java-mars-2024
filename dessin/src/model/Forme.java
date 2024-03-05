@@ -1,8 +1,8 @@
 package model;
 
-public class Forme {
-	private int x;
-	private int y;
+public abstract class Forme {
+	protected int x;
+	protected int y;
 	
 	public Forme(int x, int y) {
 		super();
