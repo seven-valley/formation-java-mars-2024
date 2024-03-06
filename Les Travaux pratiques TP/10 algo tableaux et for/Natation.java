@@ -1,10 +1,10 @@
-package controller;
 
+package piscine;
 import java.util.Random;
 import java.util.Scanner;
 
-public class PoneyController {
 
+public class Natation {
 
     final static int LONGUEUR_BASSIN = 25;
     final static int NB_LONGUEURS = 2;
@@ -89,5 +89,4 @@ public class PoneyController {
         System.out.println('╝');
 
     }
-
 }
