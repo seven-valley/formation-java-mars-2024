@@ -2,5 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="model.Cercle"/>
+    <fullyQualifiedTypeName name="model.Carre"/>
+    <fullyQualifiedTypeName name="model.Forme"/>
+    <fullyQualifiedTypeName name="model.Rectangle"/>
     <fullyQualifiedTypeName name="model.Personne"/>
 </qualifiedTypeNameHistroy>

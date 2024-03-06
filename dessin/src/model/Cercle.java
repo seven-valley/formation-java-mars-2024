@@ -11,6 +11,10 @@ public class Cercle extends Forme{
 		return rayon*2*3.14f;
 	}
 	
+	public void dicrisToi() {
+		// TODO Auto-generated method stub
+		
+	}
 	public int getRayon() {
 		return rayon;
 	}
@@ -23,6 +27,7 @@ public class Cercle extends Forme{
 	public String toString() {
 		return "Cercle [rayon=" + rayon + ", x=" + x + ", y=" + y + "]";
 	}
+	
 
 
 }

@@ -5,14 +5,20 @@ public abstract class Forme {
 	protected int y;
 	
 	public Forme(int x, int y) {
-		super();
+		
 		this.x = x;
 		this.y = y;
 	}
-	public void seDeplacer(int x, int y) {
+	
+	
+	public final void seDeplacer(int x, int y) {
 		this.x = this.x +x;
 		this.y = this.y +y;
 	}
+	
+	// lancer un contrat aux classes filles
+	public abstract void dicrisToi();
+	
 	public int getX() {
 		return x;
 	}

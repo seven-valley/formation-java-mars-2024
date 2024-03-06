@@ -16,6 +16,15 @@ public class Rectangle extends Forme{
 	public int getLongueur() {
 		return longueur;
 	}
+	
+	
+	public void dicrisToi() {
+		//super.dicrisToi();
+		System.out.println("je suis un rectangle");
+	}
+	public void dicrisToi(int a) {
+		System.out.println("je suis un beau rectangle");
+	}
 
 	public void setLongueur(int longueur) {
 		this.longueur = longueur;

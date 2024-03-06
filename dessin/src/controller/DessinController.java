@@ -3,6 +3,7 @@ package controller;
 import model.Carre;
 import model.Cercle;
 import model.Forme;
+import model.Rectangle;
 
 public class DessinController {
 
@@ -17,6 +18,9 @@ public class DessinController {
 		Forme[] tableau = new Forme[3];
 		tableau[1] = carre1;
 		tableau[2] = c1;
+		Rectangle rec1 = new Rectangle(0,0,10,20);
+		rec1.dicrisToi();
+		rec1.dicrisToi(1);
 
 	}
 
