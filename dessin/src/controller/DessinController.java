@@ -21,7 +21,11 @@ public class DessinController {
 		Rectangle rec1 = new Rectangle(0,0,10,20);
 		rec1.dicrisToi();
 		rec1.dicrisToi(1);
-
+		
+		
+		Forme f = new Forme (10,10);
+		
+		
 	}
 
 }

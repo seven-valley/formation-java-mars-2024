@@ -1,12 +1,14 @@
 package model;
 
-public class Cercle extends Forme{
+public final class Cercle extends Forme{
 	private int rayon;
 
 	public Cercle(int x, int y, int rayon) {
 		super(x, y);
 		this.rayon = rayon;
 	}
+	//
+	
 	public float superficie() {
 		return rayon*2*3.14f;
 	}
