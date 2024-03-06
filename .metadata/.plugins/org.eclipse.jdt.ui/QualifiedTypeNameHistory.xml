@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="model.Forme"/>
     <fullyQualifiedTypeName name="model.Rectangle"/>
     <fullyQualifiedTypeName name="model.Personne"/>
+    <fullyQualifiedTypeName name="model.Chat"/>
 </qualifiedTypeNameHistroy>

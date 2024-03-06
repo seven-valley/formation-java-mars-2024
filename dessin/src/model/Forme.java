@@ -19,6 +19,11 @@ public abstract class Forme {
 	// lancer un contrat aux classes filles
 	public abstract void dicrisToi();
 	
+	
+	public abstract void superficie();
+	
+	
+	
 	public int getX() {
 		return x;
 	}
